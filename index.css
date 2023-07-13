@@ -13,7 +13,7 @@ main {
 .header-container,
 .footer-container {
     background-color: #1f2937;
-    border: red 3px solid;
+    /* border: red 3px solid; */
 }
 
 .footer-container {
@@ -28,33 +28,55 @@ main {
     align-items: center;
     justify-content: space-around;
     color: #f9faf8;
+    margin: 150px 100px 150px 100px;
+    border: rgb(21, 190, 97) 3px solid;
 }
 
-.hero-text {
+.hero-body {
     display: flex;
-    flex-wrap: wrap;
+    gap: 50px;
+    border: rgb(190, 151, 21) 3px solid;
+}
+
+.hero-body h1 {
+    font-size: 48px;
+}
+
+.hero-body p {
+    font-size: 18px;
+}
+
+.hero-copy button {
+    font-size: 1rem;
+    width: 150px;
+    height: 44px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    border-style: none;
 }
 
 .placeholder {
     display: flex;
     justify-content: center;
-    width: 400px;
-    height: 200px;
+    width: 600px;
     background-color: #505057;
+    border: rgb(190, 151, 21) 3px solid;
 }
 
 .placeholder p {
     align-self: center;
+    padding: 20px;
 }
 
 .nav-container {
     color: white;
-    padding: 10px 100px 0 100px;
+    margin: 10px 100px 0 100px;
+    border: rgb(21, 190, 97) 3px solid;
 }
 
 ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     list-style-type: none;
     margin: 0;
